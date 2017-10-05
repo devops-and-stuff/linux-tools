@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/var/node/zombie-proof/node_modules'
+let g:netrw_dirhist_2='/var/node/jobseeq-2.0/tests'
+let g:netrw_dirhist_3='/var/docker/google-cloud-deployment/scripts'
+let g:netrw_dirhist_4='/var/docker/kubernodes'
+let g:netrw_dirhist_5='/var/docker/google-cloud-deployment/commit-parser'
+let g:netrw_dirhist_6='/var/node/digital-element-renewal/download'
+let g:netrw_dirhist_7='/var/bash/commit-parser'
+let g:netrw_dirhist_8='/var/www/hermes/pages/api/email'
+let g:netrw_dirhist_9='/var/www/service-api/src/modules/v1/metrics/classes/Metrics/Inbound/Leads'

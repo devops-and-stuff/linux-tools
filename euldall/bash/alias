@@ -1,0 +1,8 @@
+# Resets Ethernet Adapter - Can fix VM Networking issues
+alias fixinternetz='ifdown eth0 && ifup eth0'
+# CD to the root of the git repo you are currently browsing
+alias groot='cd $(git rev-parse --show-toplevel)'
+# git push the current branch only
+alias gush='git push origin HEAD'
+# Sync system clock using trusted source google.com - Hack if NTP doesn't work for you
+alias syncdate='date --set="$(curl -Is google.com | grep Date: | cut -d '\'' '\'' -f 2-)"'
